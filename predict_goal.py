@@ -69,7 +69,7 @@ for i in(range(leng)):
     if((not math.isnan(home_shots)) and (not math.isnan(away_shots))):
 
         total = home_goal_out[i] + away_goal_out[i]
-
+        # over || under 2.5
         if (total > 2):
             out = 1
         else:
